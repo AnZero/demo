@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/course/course",
+    "pages/message/khmessage",
+    "pages/message/xtmessage",
+    "pages/logs/set/set",
+    "pages/logs/login/login",
+    "pages/logs/set/croppor/croppor",
+    "pages/logs/set/setpic/setpix",
+    "pages/course/courlist/courlist",
+    "pages/index/xueyuan/xueyuan",
+    "pages/message/mess/mess"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#4e95f1",
+    "navigationBarTitleText": "demo",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#4d95f1",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "image/icon-home.png",
+        "selectedIconPath": "image/icon-home-on.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/course/course",
+        "iconPath": "image/icon-kecheng.png",
+        "selectedIconPath": "image/icon-kecheng-on.png",
+        "text": "课程"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "iconPath": "image/icon-user.png",
+        "selectedIconPath": "image/icon-user-on.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

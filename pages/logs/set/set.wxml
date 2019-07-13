@@ -1,0 +1,38 @@
+<!--pages/logs/set/set.wxml-->
+<view class="set-box">
+  <form bindsubmit='formSubmit' report-submit='true'>
+    <view>
+      <text>姓名</text>
+      <input name='username' placeholder='未填写' type="text" placeholder-style="color:#999;" value='{{userNameInput}}'></input>
+      <image class="arrow" src="../../../image/icon-right-arrow.png" />
+    </view>
+    <view bindtap="choosephoto">
+      <text>头像</text>
+      <image class="touxiang" src="{{touxiangUrl}}" />
+      <image class="arrow" src="../../../image/icon-right-arrow.png" />
+    </view>
+    <view>
+      <text>真实姓名</text>
+      <input name='realname' placeholder='未填写' type="text" placeholder-style="color:#999;" value='{{realNameInput}}'></input>
+      <image class="arrow" src="../../../image/icon-right-arrow.png" />
+    </view>
+    <view>
+      <text>证件号</text>
+      <input name='nameid' placeholder='未填写' type="text" placeholder-style="color:#999;" value='{{nameIdInput}}'></input>
+      <image class="arrow" src="../../../image/icon-right-arrow.png" />
+    </view>
+    <view>
+      <text>微信号</text>
+      <input name='weixin' placeholder='未填写' type="text" placeholder-style="color:#999;" value='{{weixinInput}}'></input>
+      <image class="arrow" src="../../../image/icon-right-arrow.png" />
+    </view>
+    <view>
+      <text>备注</text>
+      <input name='beizhu' placeholder='未填写' type="text" placeholder-style="color:#999;" value='{{beizhuInput}}'></input>
+      <image class="arrow" src="../../../image/icon-right-arrow.png" />
+    </view>
+
+    <button class='submit-btn' form-type='submit'>保存</button>
+  </form>
+  
+</view>

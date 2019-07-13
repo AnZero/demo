@@ -1,0 +1,18 @@
+<!--pages/logs/set/setpic/setpix.wxml-->
+<import src="../../../logs/set/croppor/croppor.wxml"/>
+
+<view class="cropper-wrapper">
+    <template is="we-cropper" data="{{...cropperOpt}}"/>
+    <view class="cropper-buttons">
+        <view
+                class="upload"
+                bindtap="returnTap">
+            取消
+        </view>
+        <view
+                class="getCropperImage"
+                bindtap="getCropperImage">
+            选取
+        </view>
+    </view>
+</view>

@@ -1,0 +1,49 @@
+<!--pages/logs/login/login.wxml-->
+<view class="service">
+  <view class='service-main'>
+    <view class='main-tit'>
+      <text class='txt'>注册</text>
+    </view>
+    <form bindsubmit='formSubmit' report-submit='true'>
+      <view class='form-view'>
+        <view class='form-icon'>
+          <image src='/image/icon-form-user.png'></image>
+        </view>
+        <input name='user' disabled="true" placeholder-style="color:#ccc;" value='{{userInput}}'></input>
+      </view>
+      <view class='form-view'>
+        <view class='form-icon'>
+          <image src='/image/icon-form-user.png'></image>
+        </view>
+        <input name='username' placeholder='请输入真实姓名（非必填）' type="text" placeholder-style="color:#ccc;" value='{{userNameInput}}'></input>
+      </view>
+      <view class='form-view'>
+        <view class='form-icon'>
+          <image src='/image/icon-form-idnum.png'></image>
+        </view>
+        <input name='idnum' placeholder='请输入证件号（非必填）' placeholder-style="color:#ccc;" value='{{idNumInput}}'></input>
+      </view>
+      <view class='form-view'>
+        <view class='form-icon'>
+          <image src='/image/icon-form-weixin.png'></image>
+        </view>
+        <input name='weixin' placeholder='请输入微信号（非必填）' placeholder-style="color:#ccc;" value='{{weixinInput}}'></input>
+      </view>
+      <view class='form-view'>
+        <view class='form-icon'>
+          <image src='/image/icon-form-beizhu.png'></image>
+        </view>
+        <textarea name='beizhu' placeholder='填写备注（非必填）' placeholder-style="color:#ccc;" value='{{beizhuInput}}'></textarea>
+      </view>
+      
+      <checkbox-group bindchange="checkboxChange" class="checkbox">
+        <label>
+          <checkbox class='fwtk' value="fwtk" checked="true"/>同意xx小程序xxx
+        </label>
+        <navigator url='/pages/terms/terms'>服务条款</navigator>
+      </checkbox-group>
+
+      <button class='submit-btn' form-type='submit'>提交</button>
+    </form>
+  </view>
+</view>

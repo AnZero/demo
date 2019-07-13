@@ -1,0 +1,22 @@
+<!--logs.wxml-->
+<view wx:if="{{show}}">
+<view class="own-top" wx:if="{{shouquan}}">
+  <image src="{{touxiang}}" />
+  <text>{{name}}</text>
+  <navigator url="../logs/set/set" class="set"><image src="../../image/set.png" /></navigator>
+</view>
+<view class="own-top" wx:if="{{!shouquan}}">
+  <image src="../../image/touxiang-4.png" />
+  <text>点击下方注册按钮注册账号吧！</text>
+  
+</view>
+<view class="own-cen" wx:if="{{!shouquan}}">
+  <button open-type="getUserInfo" bindgetuserinfo="getuserinfo" class="login">注册</button>
+  <view>同意微信授权，获取更多功能</view>
+</view>
+<view class="own-cen" wx:if="{{zhuce}}">
+  <navigator url="../message/xtmessage" class='{{showxt?"act":""}}'><view>系统消息</view><image src="../../image/icon-right-arrow.png" /></navigator>
+  <navigator url="../message/khmessage" class='{{showyh?"act":""}}'><view>用户消息</view><image src="../../image/icon-right-arrow.png" /></navigator>
+  
+</view>
+</view>

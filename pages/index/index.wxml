@@ -1,0 +1,50 @@
+<!--index.wxml-->
+<banner imgdata="{{imgdata}}" cookie="{{cookie}}"></banner>
+
+<!-- <view class="banner">
+  <swiper autoplay="{{autoplay}}" interval="{{interval}}" vertical="true" duration="{{duration}}" circular="{{circular}}" current="{{currentSwiper}}" bindchange="swiperChange">
+    <block wx:for="{{imgUrls}}">
+      <swiper-item item-id="banner-{{index}}">
+        <navigator url='{{item.URL}}'>
+          <image src="{{item.pic}}" class="slide-image" />
+        </navigator>
+      </swiper-item>
+    </block>
+  </swiper> -->
+  <!--重置小圆点的样式 -->
+  <!-- <view class="dots"> 
+    <block wx:for="{{imgUrls}}"> 
+    <view class="dot{{index == currentSwiper ? ' active' : ''}}"></view> 
+    </block> 
+  </view> 
+
+</view> -->
+
+<view class="xueyuan">
+  <view class="tit">报名学员</view>
+  <swiper autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="{{circular}}" current="{{currentSwiper}}" bindchange="swiperChange">
+    <block wx:for="{{imgUrls}}">
+      <swiper-item item-id="xueyuan-{{index}}">
+        <navigator url='../index/xueyuan/xueyuan?index={{index}}'>
+          <image src="{{item.miniprogramViewUrl}}{{cookie}}" class="slide-image" />
+          <view class="xy-right">
+            <view class="name">{{item.title}}</view>
+            <view class="sub">简介</view>
+            <view class="word">{{item.introduction}}</view>
+          </view>
+        </navigator>
+      </swiper-item>
+    </block>
+  </swiper>
+  <!--重置小圆点的样式 -->
+  <view class="dots"> 
+    <block wx:for="{{imgUrls}}"> 
+    <view class="dot{{index == currentSwiper ? ' active' : ''}}"></view> 
+    </block> 
+  </view> 
+
+</view>
+
+<view class="jianjie">
+  <view class="tit">公司简介</view>
+</view>

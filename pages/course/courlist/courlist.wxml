@@ -1,0 +1,22 @@
+<!--pages/course/courlist/courlist.wxml-->
+
+<view class="page">
+<view class="cour">
+  <image src="https://open-image.nosdn.127.net/image/snapshot_movie/2016/11/8/f/06708a23308449309dc5a710666cd88f.jpg?imageView&thumbnail=375y190&axis=3&enlarge=1"></image>
+  <view class="cour-tit">演讲稿的组织</view>
+</view>
+
+<view class="cour-bar">
+  <view class="{{jieshao?'act':''}}" bindtap="tapjieshao">课程介绍</view>
+  <view class="{{mulu?'act':''}}" bindtap="tapmulu" wx:if="{{showmulu}}">课程目录</view>
+</view>
+
+<view class="jieshao" wx:if="{{jieshao}}">
+
+</view> 
+
+<view class="mulu" wx:if="{{mulu}}">
+  <view>课时一</view>
+  <view>课时二</view>
+</view>
+</view>

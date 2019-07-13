@@ -1,0 +1,12 @@
+/* pages/xtmessage.wxss */
+.mess-list{height: 100rpx;width: 698rpx;margin: 10rpx auto;}
+.list-l{float: left;width: 100rpx;height: 100rpx;}
+.list-r{float: left;width: 598rpx;height: 100rpx;border-bottom: 2rpx solid #ccc;}
+.list-l image{width: 80rpx;height: 80rpx;border-radius: 100%;margin: 10rpx 0;}
+.name{float: left;width: 400rpx;height: 50rpx;line-height: 50rpx;font-size: 14px;}
+.date{float: left;width: 198rpx;text-align: right;height: 50rpx;line-height: 50rpx;color: #999;transform: scale(.9)}
+.mess{float: left;width: 500rpx;height: 50rpx;color: #999;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;}
+.num{float: right;margin-right: 12rpx;margin-top: 8rpx;width: 16rpx;height: 16rpx;border-radius: 100%;color: #fff;background: #f00;text-align: center;line-height: 28rpx;}
+.nomess{text-align: center;color: #999;margin-top: 50%;position: relative;height: 20rpx;line-height: 20rpx;}
+.nomess::before{content: '';position: absolute;width: 20rpx;height:18rpx;border-bottom: 2rpx solid #ccc;left: 50%;top: 50%;margin-left: -90rpx;margin-top: -15rpx; }
+.nomess::after{content: '';position: absolute;width: 20rpx;height:18rpx;border-bottom: 2rpx solid #ccc;right: 50%;top: 50%;margin-right: -90rpx;margin-top: -15rpx; }

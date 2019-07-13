@@ -1,0 +1,31 @@
+<!--pages/message/khmessage.wxml-->
+<view wx:if="{{show}}">
+  <navigator url='../message/mess/mess' class="mess-list">
+    <view class="list-l"><image src="../../image/touxiang-1.png" /></view>
+    <view class="list-r">
+      <view class="list-r-t">
+        <view class="name">狮子座</view>
+        <view class="date">2018年6月30日</view>
+      </view>
+      <view class="list-r-b">
+        <view class="mess">系统通知：您的账号存在安全风险，请及时修改密码，谨防盗号风险</view>
+        <view class="num"></view>
+      </view>
+    </view>
+  </navigator>
+
+  <navigator url='../message/mess/mess' class="mess-list">
+    <view class="list-l"><image src="../../image/touxiang-1.png" /></view>
+    <view class="list-r">
+      <view class="list-r-t">
+        <view class="name">狮子座</view>
+        <view class="date">2018年6月30日</view>
+      </view>
+      <view class="list-r-b">
+        <view class="mess">系统通知：您的账号存在安全风险，请及时修改密码，谨防盗号风险</view>
+        <view class="num"></view>
+      </view>
+    </view>
+  </navigator>
+</view>
+<view class='nomess'>没有消息~</view>

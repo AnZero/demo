@@ -1,0 +1,19 @@
+<!--components/banner/banner.wxml-->
+<view class="banner">
+  <swiper autoplay="{{autoplay}}" interval="{{interval}}" vertical="true" duration="{{duration}}" circular="{{circular}}" current="{{currentSwiper}}" bindchange="swiperChange">
+    <block wx:for="{{imgdata}}">
+      <swiper-item item-id="banner-{{index}}">
+        <view>
+          <image src="{{item.miniprogramViewUrl}}{{cookie}}" class="slide-image" />
+        </view>
+      </swiper-item>
+    </block>
+  </swiper>
+  <!--重置小圆点的样式 -->
+  <view class="dotss"> 
+    <block wx:for="{{imgdata}}"> 
+    <view class="dote{{index == currentSwiper ? ' active' : ''}}"></view> 
+    </block> 
+  </view> 
+
+</view>

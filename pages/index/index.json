@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "banner": "../../components/banner/banner"
+  },
+  "navigationBarTitleText": "首页",
+  "enablePullDownRefresh": true
+}

@@ -1,0 +1,5 @@
+{
+  "navigationBarTitleText": "课程",
+  "enablePullDownRefresh": true,
+  "onReachBottomDistance":100
+}

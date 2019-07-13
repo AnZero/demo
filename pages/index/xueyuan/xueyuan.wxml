@@ -1,0 +1,6 @@
+<!--pages/index/xueyuan/xueyuan.wxml-->
+<view class='page'>
+  <view class='img'><image src="{{imgUrls[index].miniprogramViewUrl}}{{cookie}}"></image></view>
+  <view class='title'>{{imgUrls[index].title}}</view>
+  <view class='intro'>{{imgUrls[index].introduction}}</view>
+</view>

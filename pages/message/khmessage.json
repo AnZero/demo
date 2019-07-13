@@ -1,0 +1,6 @@
+{
+  "tabBar": "false",
+  "navigationBarTitleText": "客户消息",
+  "enablePullDownRefresh": true,
+  "onReachBottomDistance": 50
+}

@@ -1,0 +1,8 @@
+/* pages/course/course.wxss */
+.own{width: 698rpx;margin: 20rpx auto;background: #fff;border-radius: 20rpx;padding-bottom: 20rpx;}
+.tit{font-size: 14px;font-weight: bold;color: #4d95f1;margin: 20rpx;padding: 20rpx 0;}
+.own-list{height: 370rpx;width: 600rpx;margin: 0 auto;border-bottom: 2rpx solid #ccc;margin-bottom: 40rpx;}
+.name{font-size: 14px;height: 70rpx;line-height: 70rpx;}
+.own-list image{height: 300rpx;width: 600rpx;display: block;border-radius: 20rpx;}
+.load{text-align: center;padding-bottom: 20rpx;margin-left: -30rpx;}
+.load image{height: 80rpx;width: 80rpx;position: relative;top: 32rpx;}

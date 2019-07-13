@@ -1,0 +1,65 @@
+/* pages/logs/login/login.wxss */
+.service-main{background-color: #fff;border-radius: 20rpx;margin:20rpx 26rpx;padding-bottom: 50rpx;}
+.main-tit{margin-bottom: 40rpx}
+.main-tit .h3,
+.main-tit .txt{font-weight: bold;font-size: 62rpx;display: block;padding-top: 56rpx;padding-left: 41rpx;}
+.main-tit .txt{font-size: 35rpx;padding-top: 30rpx;}
+form{margin-top: 46rpx}
+.form-view{width: 610rpx;height: 110rpx;border-bottom: 1px solid #eee;margin-left: 44rpx;position: relative;}
+.form-icon image{height: 34rpx;width: 36rpx;}
+.form-icon{position: absolute;left: 0;top: 38rpx;}
+radio .wx-radio-input {
+      margin-right: 15rpx;
+      width: 25rpx;
+      height: 25rpx;
+      background: #f5f5f5  !important;
+      border-radius: 25rpx;
+      box-sizing: border-box;
+      border-color: #e4e4e4 !important;
+      position: relative;
+      top: -4rpx;
+}
+radio .wx-radio-input::before {
+      width: 25rpx;
+      height: 25rpx;
+      background: #f5f5f5;
+      border-color: #e4e4e4 !important;
+      border-radius: 25rpx;
+      box-sizing: border-box;
+}
+radio .wx-radio-input.wx-radio-input-checked {
+      background: #f5f5f5;
+      border-color:#e4e4e4 !important;
+      box-sizing: border-box;
+}
+radio .wx-radio-input.wx-radio-input-checked::before {
+      content: '';
+      border-color:#e4e4e4 !important;
+      background: #529ff2 !important;
+      height: 11rpx;
+      width: 11rpx;
+      border-radius: 11rpx;
+}
+.form-view input,.form-view textarea{position: relative;top: 30rpx;left: 75rpx;width: 500rpx;font-size: 26rpx;}
+.form-view textarea{height: 1.6rem;padding: 10rpx 0;}
+.radio-group{position: absolute;right: 0;top: 40rpx;font-size: 26rpx !important;}
+radio{margin-left: 52rpx;}
+.getcode,.imgcode{position: absolute;right: 0;width: 192rpx;text-align: center;background: #f5f5f5;color: #f94646;border-radius: 58rpx;height: 58rpx;line-height: 58rpx;top: 26rpx;}
+.getcode.disable{color: #ccc;}
+.imgcode{border-radius: 0}
+.imgcode image{width: 100%;height: 100%;}
+.picker{position: relative;left: 75rpx;width: 500rpx;top: 40rpx;font-size: 26rpx !important;color: #333;padding-right:40rpx;}
+.bot-arrow{width: 23rpx;height: 13rpx;position: absolute;right: 0;top: 50rpx;}
+.submit-btn{width: 600rpx;height: 88rpx;text-align: center;line-height: 88rpx;border-radius: 88rpx;margin-top: 60rpx;color: #fff;background: #ff4b3b;padding: 0;font-size: 30rpx;}
+.notice{color: #ccc;font-size: 20rpx;width: 100%;text-align: center;display: block;margin-top: 45rpx;padding-bottom: 60rpx;}
+
+.address,
+.carMode{padding-left: 75rpx;box-sizing: border-box}
+.address .picker,
+.carMode .picker{left: 0}
+.address picker,
+.carMode picker{width: 50%}
+.form-view .arrows-bottom{width:12px;height:12px; position: absolute; margin-right: 20rpx}
+.form-view .arrows-bottom::after{width:8px;height:8px;}
+
+.checkbox{margin-left: 50rpx} 

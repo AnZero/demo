@@ -1,0 +1,47 @@
+/**index.wxss**/
+view{font-size:12px}
+image{max-width: 100%}
+
+.wrap{padding:0 26rpx;}
+.wrap-all{padding: 10px;}
+.flex{display:flex;}
+.flex-wrp{display:flex;flex-wrap:wrap;}
+.flex-1{flex: 1}
+.flex-2{flex: 2}
+
+.item{box-sizing: border-box}
+
+.col-2 .item{width: 50%;}
+.col-3 .item{width: 33.33%;}
+
+.card-txt{padding: 5px}
+
+.block-wp{padding-bottom: 20px;}
+
+/*--banner--*/
+.banner{border-radius: 20rpx;}
+.banner,.xueyuan{position:relative;width:698rpx;margin:10rpx auto;margin-bottom: 40rpx;}
+.banner swiper{width:698rpx;height:305rpx;}
+.banner swiper-item{border-radius: 20rpx;overflow: hidden;}
+.banner navigator{width:698rpx;height:305rpx;}
+.banner image{width:100%;height:100%}
+
+.dots {position: absolute;width: 156rpx;height: 36rpx;display: flex;flex-direction: row;left: 300rpx;bottom: -50rpx;}
+.dot {width: 20rpx;height: 10rpx;border-radius: 10rpx;margin-right: 20rpx;background-color: #ccc;}
+.dots .active {width: 30rpx;background-color: #333;}
+
+.xueyuan{background: #fff;border-radius: 20rpx;}
+.xueyuan swiper{width: 698rpx;height: 300rpx;margin: 0 auto;}
+.xueyuan swiper-item{border-radius: 20rpx;overflow: hidden;}
+.xueyuan navigator{width:698rpx;height:300rpx;}
+.xueyuan image{width:360rpx;height:300rpx;float: left;}
+.xueyuan .xy-right{float: left;width: 250rpx;margin-left: 34rpx;}
+.xueyuan .name{font-size: 20px;font-weight: bold;margin-top: 60rpx;}
+.xueyuan .sub{font-size: 14px;width: 100%;margin-top: 32rpx;}
+.xueyuan .word{line-height: 1.5;margin-top: 22rpx;height: 70rpx;display: -webkit-box;
+-webkit-box-orient: vertical;
+-webkit-line-clamp: 2;
+overflow: hidden;}
+.tit{font-size: 14px;font-weight: bold;color: #4d95f1;margin: 20rpx;border-bottom: 2rpx solid #ccc;padding: 20rpx 0;}
+
+.jianjie{width:698rpx;margin:10rpx auto;margin-bottom: 40rpx;background: #fff;border-radius: 20rpx;height: 150rpx;}

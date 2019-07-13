@@ -1,0 +1,36 @@
+/* pages/message/mess/mess.wxss */
+page{background: #fff;}
+.time{color: #999;text-align: center;height: 100rpx;line-height: 100rpx;}
+.arrow_box {
+	position: relative;
+	background:#eee;
+	border: 1px solid #eee;
+  width: 550rpx;
+  border-radius: 20rpx;
+  margin: 0 auto;
+  padding: 20rpx;
+  line-height: 40rpx;
+}
+.arrow_box:after, .arrow_box:before {
+	right: 100%;
+	top: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+  margin-top: -20rpx;
+  
+}
+
+.arrow_box:after {
+	border-color: rgba(255, 255, 255, 0);
+	border-right-color: #eee;
+	border-width: 20rpx;
+}
+.arrow_box:before {
+	border-color: rgba(255, 255, 255, 0);
+	border-right-color: #fff;
+	border-width: 20rpx;
+}

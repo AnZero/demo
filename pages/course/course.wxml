@@ -1,0 +1,44 @@
+<view wx:if="{{show}}">
+<view class="own" wx:if="{{showme}}">
+  <view class="tit">我的课程</view>
+  <view>
+    <navigator url='../course/courlist/courlist' class="own-list">
+      <image src="https://open-image.nosdn.127.net/image/snapshot_movie/2016/11/8/f/06708a23308449309dc5a710666cd88f.jpg?imageView&thumbnail=375y190&axis=3&enlarge=1"></image>
+      <view class="name">演讲稿的组织</view>
+    </navigator>
+
+    <navigator url='../course/courlist/courlist' class="own-list">
+      <image src="https://open-image.nosdn.127.net/image/snapshot_movie/2016/11/8/f/06708a23308449309dc5a710666cd88f.jpg?imageView&thumbnail=375y190&axis=3&enlarge=1"></image>
+      <view class="name">演讲稿的组织</view>
+    </navigator>
+  </view>
+</view>
+<view class="own">
+  <view class="tit">推荐课程</view>
+  <view>
+    <navigator url='../course/courlist/courlist' class="own-list">
+      <image src="https://open-image.nosdn.127.net/image/snapshot_movie/2016/11/8/f/06708a23308449309dc5a710666cd88f.jpg?imageView&thumbnail=375y190&axis=3&enlarge=1"></image>
+      <view class="name">演讲稿的组织</view>
+    </navigator>
+
+    <navigator url='../course/courlist/courlist' class="own-list">
+      <image src="https://open-image.nosdn.127.net/image/snapshot_movie/2016/11/8/f/06708a23308449309dc5a710666cd88f.jpg?imageView&thumbnail=375y190&axis=3&enlarge=1"></image>
+      <view class="name">演讲稿的组织</view>
+    </navigator>
+    <navigator url='../course/courlist/courlist' class="own-list">
+      <image src="https://open-image.nosdn.127.net/image/snapshot_movie/2016/11/8/f/06708a23308449309dc5a710666cd88f.jpg?imageView&thumbnail=375y190&axis=3&enlarge=1"></image>
+      <view class="name">演讲稿的组织</view>
+    </navigator>
+    <navigator url='../course/courlist/courlist' class="own-list">
+      <image src="https://open-image.nosdn.127.net/image/snapshot_movie/2016/11/8/f/06708a23308449309dc5a710666cd88f.jpg?imageView&thumbnail=375y190&axis=3&enlarge=1"></image>
+      <view class="name">演讲稿的组织</view>
+    </navigator>
+    <navigator url='../course/courlist/courlist' class="own-list">
+      <image src="https://open-image.nosdn.127.net/image/snapshot_movie/2016/11/8/f/06708a23308449309dc5a710666cd88f.jpg?imageView&thumbnail=375y190&axis=3&enlarge=1"></image>
+      <view class="name">演讲稿的组织</view>
+    </navigator>
+  </view>
+  <view class='load' wx:if="{{showload}}"><image src='../../image/load.gif'></image>加载中</view>
+</view>
+
+</view>

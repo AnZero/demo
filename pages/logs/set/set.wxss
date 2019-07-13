@@ -1,0 +1,8 @@
+/* pages/logs/set/set.wxss */
+.set-box{margin-top: 30rpx;font-size: 13px;}
+.set-box view{height: 80rpx;margin-bottom: 2rpx;width: 100%;background: #fff;display: block;position: relative;}
+.set-box view .arrow{width: 13rpx;height: 23rpx;float: right;margin-right: 30rpx;margin-top: 31rpx;}
+.set-box view text{float: left;width: 120rpx;line-height: 80rpx;margin-left: 20rpx;}
+.set-box view input{width: 530rpx;text-align: right;color: #999;float: left;height: 40rpx;line-height: 40rpx;margin-top: 15rpx;}
+.set-box view .touxiang{width: 40rpx;height: 40rpx;border-radius: 40rpx;position: absolute;right: 58rpx;top: 20rpx;}
+.submit-btn{width: 600rpx;height: 88rpx;text-align: center;line-height: 88rpx;border-radius: 88rpx;margin-top: 60rpx;color: #fff;background: #529ff2;padding: 0;font-size: 30rpx;}

@@ -1,0 +1,5 @@
+/* pages/logs/set/setpic/setpix.wxss */
+.cropper-wrapper{position: relative;}
+.cropper-buttons{width: 100%;margin: 0 auto;height: 50px;background: rgba(0, 0, 0, 0.86);}
+.upload,.getCropperImage{width: 50%;height: 100rpx;line-height: 100rpx;float: left;color: #fff;font-size: 14px;text-align: center;}
+.getCropperImage{color: #4d95f1;}
